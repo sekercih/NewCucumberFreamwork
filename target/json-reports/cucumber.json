@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-11T17:18:49.620Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC01_kullanici googleda arama yapar",
+        "description": "",
+        "id": "googleda-arama-yapma;tc01-kullanici-googleda-arama-yapar",
+        "after": [
+          {
+            "result": {
+              "duration": 564000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15081000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici google sayfasindadir",
+            "match": {
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_google_sayfasindadir()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2693000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici kemal ozden aramasi yapar",
+            "match": {
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_kemal_ozden_aramasi_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "arama sayfasinin basligi dogrulanir",
+            "match": {
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.arama_sayfasinin_basligi_dogrulanir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googlearama"
+          }
+        ]
+      }
+    ],
+    "name": "Googleda arama yapma",
+    "description": "",
+    "id": "googleda-arama-yapma",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ilkdosya.feature",
+    "tags": [
+      {
+        "name": "@googlearama",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

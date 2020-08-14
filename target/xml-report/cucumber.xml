@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.993">
+<testcase classname="Googleda arama yapma" name="TC01_kullanici googleda arama yapar" time="18.628">
+<system-out><![CDATA[Given kullanici google sayfasindadir........................................passed
+And kullanici kemal ozden aramasi yapar.....................................passed
+Then arama sayfasinin basligi dogrulanir....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
